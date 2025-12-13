@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                font-family:Arial;
+                text-align:center;
+            }
+
+            .grid {
+                display: grid;
+                grid-template-columns: repeat(4, lfr);
+                gap :20px;
+                padding: 20px;
+            }
+
+            .card{
+                border: 1px solid #ccc;
+                padding: 15px;
+                border-radius: 10px;
+                background: #f9f9f9;
+            }
+
+            .card img {
+                width: 60px;
+                height: 60px;
+            }
+
+            @media (max-width: 1024px) {
+                .grid {
+                    grid-template-columns:repeat(2, lfr);
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <h2>Responsive Product Grid</h2>
+
+        <div class="grid">
+            <div class="card">
+                <img src="https://via.placeholder.com/60">
+                <h3>Product 1</h3>
+                <p>High-quality item with great features.</p>
+                <b>Rs 499</b>
+            </div>
+
+            <div class="card">
+                <img src="https://via.placeholder.com/60">
+                <h3>Product 2</h3>
+                <p>Durable and stylish for daily use.</p>
+                <b>Rs799</b>
+            </div>
+
+            <div clas="card">
+                <img src="https://via.placeholder.com/60">
+                <h3>Product 3</h3>
+                <p>Lightweight and comfortable.</p>
+                <b>Rs1299</b>
+            </div>
+
+            <div class="card">
+                <img src="https://via.placeholder.com/60">
+                <h3>Product 4</h3>
+                <p>Trendy design with premium quality.</p>
+                <b>Rs1999</b>
+            </div>
+
+        </div>
+
+    </body>
+    </html>
