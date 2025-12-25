@@ -1,0 +1,80 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.page-container {
+    width: 350px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    background-color: #222222;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.card {
+    padding: 20px;
+    text-align: center;
+}
+
+.image-container {
+    width: 150px;
+    margin: 0 auto 15px;
+    border: 1px solid #ddd;
+}
+
+.image {
+    width: 100%;
+    display: block;
+}
+
+.title {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 5px 0 3px 0;
+}
+
+.description {
+    font-size: 0.85em;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.current-price {
+    color: #008000;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.original-price {
+    font-size: 0.9em;
+    color: #999;
+    text-decoration: line-through;
+}
+
+.add-to-cart-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 0;
+    font-size: 1em;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 4px;
+    margin-top: 15px;
+}
